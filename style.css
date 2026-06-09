@@ -161,13 +161,28 @@ footer {
 }
 
 
-/* Force education logos to be small */
-.education-item img.edu-logo {
-  width: 20px !important;
-  height: 20px !important;
-  max-width: 20px !important;
-  max-height: 20px !important;
+/* Final fix: make education logos small */
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.education-item .edu-logo {
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
   object-fit: contain !important;
-  flex-shrink: 0;
-  margin-top: 5px;
+  flex: 0 0 18px !important;
+  margin-top: 6px;
+}
+
+.education-item div {
+  flex: 1;
+}
+
+.education-item h3 {
+  margin-top: 0;
 }
