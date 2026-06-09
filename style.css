@@ -159,3 +159,15 @@ footer {
     margin-right: auto;
   }
 }
+
+
+/* Force education logos to be small */
+.education-item img.edu-logo {
+  width: 20px !important;
+  height: 20px !important;
+  max-width: 20px !important;
+  max-height: 20px !important;
+  object-fit: contain !important;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
