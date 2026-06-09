@@ -103,6 +103,33 @@ a:hover {
   margin-bottom: 4px;
 }
 
+/* Education section with small logos */
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.edu-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.education-item h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.education-item p {
+  margin: 4px 0;
+  line-height: 1.45;
+}
+
 footer {
   text-align: center;
   padding: 30px;
