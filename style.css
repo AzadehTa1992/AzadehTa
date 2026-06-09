@@ -186,3 +186,45 @@ footer {
 .education-item h3 {
   margin-top: 0;
 }
+
+
+
+
+
+.research-education-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.research-education-row h2 {
+  color: #005b96;
+  border-bottom: 2px solid #005b96;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+#research ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+#research li {
+  margin-bottom: 8px;
+}
+
+.edu-entry {
+  margin-bottom: 16px;
+}
+
+.edu-entry p {
+  margin: 2px 0;
+  line-height: 1.35;
+}
+
+@media (max-width: 900px) {
+  .research-education-row {
+    grid-template-columns: 1fr;
+  }
+}
